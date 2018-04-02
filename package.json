@@ -1,0 +1,28 @@
+{
+  "name": "beer-o-clock",
+  "version": "1.0.0",
+  "description": "A touch bar app for beer O'clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleymarkfletcher/beer-o-clock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleymarkfletcher/beer-o-clock/issues"
+  },
+  "homepage": "https://github.com/ashleymarkfletcher/beer-o-clock#readme",
+  "devDependencies": {
+    "electron": "^2.0.0-beta.6"
+  },
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "electron-settings": "^3.1.4"
+  }
+}

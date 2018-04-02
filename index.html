@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Beer O'Clock</title>
+</head>
+
+<body>
+    <h1>Beer O'Clock</h1>
+
+    <select name="day" id="day">
+        <option value="1">monday</option>
+        <option value="2">tuesday</option>
+        <option value="3">wednesday</option>
+        <option value="4">thursday</option>
+        <option value="5">friday</option>
+        <option value="6">saturday</option>
+        <option value="0">sunday</option>
+    </select>
+
+    <input id="timeInput" type="time" name="timeInput">
+    <button id="setTimeButton">set time</button>
+
+    <script>
+        // You can also require other files to run in this process
+        require('./src/index.js')
+    </script>
+</body>
+
+</html>
